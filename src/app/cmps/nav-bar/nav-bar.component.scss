@@ -1,0 +1,10 @@
+h2{
+    display: flex;
+    justify-content: center;
+    color: #b9b9b9;
+    transition: all .3s;
+}
+h2:hover{
+    cursor: pointer;
+    color: #8d8d8d;
+}

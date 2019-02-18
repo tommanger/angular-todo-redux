@@ -1,0 +1,6 @@
+<form class="todo-edit" [formGroup]="todoForm" (ngSubmit)="addTodo()">
+  <label>
+    <input #txt formControlName="txt" type="text" placeholder="What needs to be done?">
+  </label>
+  <button type="submit">{{(todo)? '✔' : '+'}}</button>
+</form>

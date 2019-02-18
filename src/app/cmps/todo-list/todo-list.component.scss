@@ -1,0 +1,15 @@
+.container{
+    max-width: 500px;
+    margin: 45px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+    background-color: white;
+    max-height: 600px;
+    overflow: auto;
+    h2{
+        font-size: 56px;
+        color: #ff9d95;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+}

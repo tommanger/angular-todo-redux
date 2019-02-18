@@ -1,0 +1,29 @@
+.todo-preview{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ededed;
+    align-items: center;
+    button{
+        border: none;
+        background-color: unset;
+        cursor: pointer;
+        transition: all .2s;
+        padding: 20px;
+    }
+    button:hover{
+        background-color: #ff9d95
+    }
+    h2{
+        margin-left: 10px;
+    }
+}
+.todo-btns{
+    opacity: 0;
+    transition: all .2s;
+}
+.todo-preview:hover{
+    .todo-btns{
+        opacity: 1;
+    }
+
+}

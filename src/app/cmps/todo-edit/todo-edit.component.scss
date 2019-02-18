@@ -1,0 +1,31 @@
+.todo-edit{
+    border-bottom: 1px solid #ededed;
+    display: flex;
+    align-items: center;
+    button{
+        border: 0;
+        font-size: 40px;
+        border-radius: 50%;
+        background-color: #ff9d95;
+        width: 50px;
+        height: 50px;
+        font-weight: bold;
+        color: white;
+        transition: all .3s;
+    }
+    button:active{
+        transform: rotate(180deg);
+    }
+    button:hover{
+        cursor: pointer;
+        background-color: #ff7e73;
+    }
+    input{
+        height: 60px;
+        font-size: 30px;
+        border: 0;
+        outline:none;
+        width: 432px;
+        padding-left: 10px;
+    }
+}

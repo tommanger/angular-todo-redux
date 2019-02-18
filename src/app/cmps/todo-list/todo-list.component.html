@@ -1,0 +1,8 @@
+<div class="container">
+    <h2>ANGULAR-TODOS</h2>
+    <app-todo-edit></app-todo-edit>
+    <div *ngFor="let todo of todos; let i = index;">
+        <app-todo-preview *ngIf="!isEditeds[i]" [todo]="todo" (removeTodo)="removeTodo($event)" (editTodo)="isEditeds[i] = true"></app-todo-preview>
+        <app-todo-edit [todo]="todo" *ngIf="isEditeds[i]" (setEditeFasle)="isEditeds[i] = false"></app-todo-edit>
+    </div>
+</div>
