@@ -1,4 +1,7 @@
 # Angulartodo
+To see the project: https://tommanger.github.io/angular-todo-redux/
+
+Created by Tom Manger, Email: tom.manger10@gmail.com linkedin: https://www.linkedin.com/in/tommanger/
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
